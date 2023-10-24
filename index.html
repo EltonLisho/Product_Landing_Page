@@ -10,16 +10,20 @@
     <div class="menu-container">
         <div class="menu">
             <div class="logo"><img src="images/logo-color.png" alt="holtz logo" width="150px" height="150px"></div>
-            <div class="GetQuote"><button type="button">Get A Quote</button></div>
+            <div class="GetQuote"><button class="quote" type="button">Get A Quote</button></div>
             <div class="login">Log In</div>
             
             <!--Change this to a hoverable dropdown menu with added CSS-->
-            <label class="dropmenu" for="menu-items">Menu</label>
-            <select class="list" name="menu-items" id="menu-items">
-                <option value="Insurance Policies">Insurance Policies</option>
-                <option value="Clients">Clients Testimonies</option>
-                <option value="Personalized">Personalized Coverage</option>
-            </select>
+            
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="#">Insurance Policies</a>
+                    <a href="#">Clients Testimonies</a>
+                    <a href="#">Personalized Coverage</a>
+                </div>
+            </div>
+            
            
         </div>
     </div>
