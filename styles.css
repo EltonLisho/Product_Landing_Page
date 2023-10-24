@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-container {
+    color: #fff;
+    background-color: #3882F6;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    border: 1px solid #fff;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login {
+    margin-left: auto;
+}
+.dropmenu, .GetQuote {
+    margin-left: 20px;
+}
+.list {
+    margin-left: 8px;
+}

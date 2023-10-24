@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>HoltzInsurance</title>
 </head>
 <body>
     <div class="menu-container">
         <div class="menu">
-            <div class="logo"><img src="images/logo-color.png" alt="holtz logo" width="80px" height="80px"></div>
+            <div class="logo"><img src="images/logo-color.png" alt="holtz logo" width="150px" height="150px"></div>
             <div class="GetQuote"><button type="button">Get A Quote</button></div>
             <div class="login">Log In</div>
             
             <!--Change this to a hoverable dropdown menu with added CSS-->
-            <label for="menu-items">Menu</label>
-            <select name="menu-items" id="menu-items">
+            <label class="dropmenu" for="menu-items">Menu</label>
+            <select class="list" name="menu-items" id="menu-items">
                 <option value="Insurance Policies">Insurance Policies</option>
                 <option value="Clients">Clients Testimonies</option>
                 <option value="Personalized">Personalized Coverage</option>
