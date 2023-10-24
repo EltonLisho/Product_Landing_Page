@@ -1,3 +1,4 @@
+/* Menu bar styling */
 * {
     margin: 0;
     padding: 0;
@@ -71,3 +72,5 @@
   .dropdown:hover .dropbtn {background-color: #09a8c4;}
 
   .GetQuote:hover .quote {background-color: #09a8c4;}
+
+  /* Header Section Styling */
