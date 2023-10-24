@@ -74,3 +74,27 @@
   .GetQuote:hover .quote {background-color: #09a8c4;}
 
   /* Header Section Styling */
+  .header-container {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  .header-text {
+    width: 50%;
+  }
+  h1 {
+    color: #1F2937;
+    font-size: 48px;
+    font-weight: bolder;
+   }
+  p {
+    color: #1F2937;
+    font-size: 18px;
+  }
+  .large-text {
+    margin-bottom: 10px;
+  }
+  .small-text {
+    margin-bottom: 20px;
+  }
