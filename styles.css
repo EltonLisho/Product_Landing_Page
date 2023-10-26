@@ -82,6 +82,7 @@
   }
   .header-text {
     width: 50%;
+    margin-right: 100px;
   }
   h1 {
     color: #1F2937;
@@ -94,7 +95,37 @@
   }
   .large-text {
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
   }
   .small-text {
     margin-bottom: 20px;
+  }
+
+  /* Info page styling */
+  .info-container {
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  .info-text {
+    width: 40%
+  }
+    
+  .info-image {
+    margin-right: 200px;
+  }  
+  
+  h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    
+  }
+  h3 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-left: 5px;
   }
