@@ -92,6 +92,7 @@
   p {
     color: #1F2937;
     font-size: 18px;
+    margin-bottom: 8px;
   }
   .large-text {
     margin-bottom: 10px;
@@ -129,3 +130,31 @@
     color: #1F2937;
     margin-left: 5px;
   }
+ 
+  /* FAQ section styling */
+  .faq-container {
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  .faq {
+    width: 50%;
+  }
+  .qna {
+    
+    display: flex;
+    justify-content: space-between;
+  }
+  .required, .advice {
+    width: 40%;
+  
+  }
+  .faq-image {
+    margin-left: 50px;
+  }
+  .bold {
+    font-weight: bolder;
+    color: #1F2937;
+  }
+  
